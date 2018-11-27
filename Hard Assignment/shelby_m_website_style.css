@@ -1,0 +1,92 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+  box-sizing: border-box;
+  text-align: center;
+ }
+
+body {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "arial verdana", sans-serif;
+}
+
+header {
+  font-size: 16px;
+  padding: 20px;
+  margin-bottom: 7px;
+  color: grey;
+  background-color:  rgb(224, 224, 224);
+  height: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background:  rgb(224, 224, 224);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#middle {
+  height: 250Px;
+  float: left;
+  width: 49%;
+  margin-right: 100%;
+}
+#right {
+  float: right;
+  background-color:  rgb(224, 224, 224);
+  height: 250Px;
+  width: 29%;
+  position: relative;
+  bottom: 270px;
+}
+#full {
+  float: left;
+  width: 47%;
+  padding: 5px;
+  bottom: 470px;
+  position: relative;
+  background-color: grey;
+  color: white;
+  height: 170px;
+  margin-left: 11%;
+}
+#h{
+  float: left;
+  font-weight: bold;
+  padding: 5px;
+  width: 45%;
+  bottom: 620px;
+  position: relative;
+  background-color rgb(224, 224, 224);
+  color: grey;
+  height: 50px;
+  margin-left: 12%;
+}
+#last{
+  float: left;
+  padding: 5px;
+  width: 45%;
+  bottom: 630px;
+  position: relative;
+  background-color: rgb(224, 224, 224);
+  color: grey;
+  height: 50px;
+  margin-left: 12%;
+}
+
+footer {
+  color:grey;
+  background-color: rgb(224, 224, 224);
+  width: 80%;
+  height: 120px;
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 30%;
+  position: relative;
+  bottom: 600px;
+}
